@@ -1,12 +1,8 @@
 class Dog
+  def bark
+    puts "Woof!"
+  end
 end
 
 fido = Dog.new
-fido #=> #
-
-def initialize
-    fido.bark
-end
-def bark
-     "Woof!"
-end
+fido.bark #> "Woof!"
