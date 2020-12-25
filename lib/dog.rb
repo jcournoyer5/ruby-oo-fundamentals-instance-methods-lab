@@ -1,8 +1,11 @@
 class Dog
 end
 
+fido = Dog.new
+fido #=> #
+
 def initialize
-    bark
+    fido.bark
 end
 def bark
      "Woof!"
